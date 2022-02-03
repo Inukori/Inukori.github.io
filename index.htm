@@ -1,0 +1,154 @@
+
+Skip to content
+Pull requests
+Issues
+Marketplace
+Explore
+@Inukori
+microsounds /
+microsounds.github.io
+Public
+
+Code
+Pull requests
+Actions
+Security
+
+    Insights
+
+microsounds.github.io/index.htm
+@microsounds
+microsounds Wed 02 Feb 2022 10:58:24 PM PST on effe
+Latest commit ebe644d 5 hours ago
+History
+1 contributor
+114 lines (114 sloc) 8.31 KB
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="theme-color" content="#E2FAF9"/>
+	<meta name="description" content="the echoes of time stand still"/>
+	<meta name="keywords" content="unix, linux, gnu/linux, debian, computers, computing, shell scripting, dotfiles, scripting, programming, metaprogramming, documentation, foss, open source, free software, git, github, moon phase, teal, cyan, pink, starry night skies, pastel, anime, music, iridescent, sibilant, sentimental, microsounds, eternity, jealosy, decay, 2007 is eternal, now and forever, lucky star, vocaloid, hatsune miku, 初音ミク, 39, sankyuu, shimeji, japan, weeaboo, weeb, old web, web 1.0, neocities, geocities, blog, microblog, static website, personal website"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta name="google-site-verification" content="Yn_X0a7RyXs1GuMzbXL2g3P-tH1A29W_6yyG6M8oBnk"/>
+	<link rel="shortcut icon" type="image/x-icon" href="/static/sky.ico"/>
+	<link rel="stylesheet" type="text/css" href="/static/style.css"/>
+	<link rel="alternate" type="application/rss+xml" href="/rss.xml" title="sentimental µsounds"/>
+	<script type="text/javascript" src="/static/script.js"></script>
+	<title>Homepage | sentimental µsounds</title>
+</head>
+<body>
+<audio hidden id="bgm"></audio>
+<div class="navbar">
+	<a href="/index.htm"><img class="avatar" alt="avatar" src="/static/avatar.png"/></a>
+	<div class="container">
+		<div class="title"><a href="/index.htm">sentimental µsounds</a></div>
+		<div class="subtitle">the echoes of time stand still</div>
+		<ul>
+			<li><a id="bgm_toggle" href="javascript:play()">♫ play</a></li>
+			<li><a href="https://github.com/microsounds">my github</a></li>
+			<li><a href="/notes/dotfiles.htm">my dotfiles</a></li>
+			<li><a href="/notes/index.htm">my notes</a></li>
+			<li><a href="/rss.xml">rss <img alt="rss" class="icon" src="/static/button/rss.svg"/></a></li>
+		</ul>
+	</div>
+</div>
+<div class="content">
+<!--kagami v0.6 — static microblog processor-->
+<h1>Homepage</h1>
+<!-- original: https://gelbooru.com/index.php?page=post&s=view&id=3757995 -->
+<p><img src="/static/starry.jpg" alt="heading" /></p>
+<h2>About me</h2>
+<p>This is my little sanctuary where I bottle up the unix computer zealot in me, you can call me <code>microsounds</code> if you want.</p>
+<p>I like <del>muted pastels,</del> starry night skies, people watching and the <a href="https://files.catbox.moe/gn20dj.pdf" title="Bell System Technical Journal Vol. 57, No. 6, Part 2, pp. 1905- (July-Aug. 1978), Dennis Ritchie, Ken Thompson">unix</a> <a href="http://files.catwell.info/misc/mirror/the-unix-programming-environment-kernighan-pike.pdf" title="The Unix Programming Environment (1984), Brian Kernighan, Rob Pike">programming</a> <a href="http://www.catb.org/~esr/writings/taoup/html/" title="The Art of Unix Programming (2003), Eric S. Raymond">environment</a>.
+I like to have <a href="https://effexxx.bandcamp.com/album/from-4jyo-han-to-everywhere-again" title="from 4jyo​-​han to everywhere (2011), effe">this album</a> in the background sometimes.</p>
+<p>More importantly, I enjoy designing/writing my own tools and extending existing tools to automate things I would otherwise be doing by hand.
+Sometimes, I’ll do this to force myself to try new things.</p>
+<div class="right" style="filter: grayscale(65%); font-style: italic;">
+<p>For example, this website,
+the superset of github flavored markdown I built up to author this site,
+and the static site generator I wrote that ties it all together were a result of me wanting to get into long form writing.</p>
+<p>That’s the excuse I give myself, anyway.
+I don’t actually care for long form writing,
+I just really like metaprogramming.</p>
+<p>It’s a never-ending process.</p>
+<p><a href="notes/dotfiles.htm" title="It's pretty fun though."><img src="/static/shimemiku/shime32.png" alt="ico-scripts" /></a></p>
+</div>
+<hr style="width: 40%;"/>
+<h2>Things I’ve made recently</h2>
+<ul>
+<li><em>(2019–present)</em> my “graphical shell” computing environment — <a href="/notes/dotfiles.htm"><code>microsounds/atelier</code></a>
+<ul>
+<li><em>My self-contained and unabridged collection of dotfiles and scripts for Debian GNU/Linux.</em></li>
+</ul>
+</li>
+<li><em>(2020–present)</em> static microblog processor in POSIX shell — <a href="https://github.com/microsounds/kagami"><code>microsounds/kagami</code></a>
+<ul>
+<li><em>A user-extensible macro preprocessor and static webpage generator for blog sites like this one.</em></li>
+</ul>
+</li>
+<li><em>(2019–present)</em> this website and it’s <code>kagami</code> template — <a href="https://github.com/microsounds/microsounds.github.io"><code>microsounds/microsounds.github.io</code></a></li>
+</ul>
+<h2>Old projects</h2>
+<ul>
+<li><em>(2016–2017)</em> <em><strong>[retired]</strong></em> lightweight futaba-like messageboard system in C — <a href="https://github.com/microsounds/akari-bbs"><code>microsounds/akari-bbs</code></a></li>
+<li><em>(2016)</em> CPU-based tripcode generator for futaba-like imageboards — <a href="https://github.com/microsounds/tripforce"><code>microsounds/tripforce</code></a></li>
+<li><em>(2016)</em> <em><strong>[retired]</strong></em> command-line utility for scraping Bandcamp albums — <a href="https://github.com/microsounds/bc-dl"><code>microsounds/bc-dl</code></a></li>
+<li><em>(2016)</em> command-line stack-based RPN calculator — <a href="https://github.com/microsounds/hpsh"><code>microsounds/hpsh</code></a></li>
+</ul>
+<h2>Contact me</h2>
+<p>If it’s about a project or a page on this website, open an issue or a pull request on GitHub at one of the links above.</p>
+<h2>Links</h2>
+<div class="center">
+<p><a href="https://debian.org/distrib"><img src="/static/button/debian.png" alt="ico-debian" /></a>
+<a href="https://nano-editor.org"><img src="/static/button/nano.png" alt="ico-nano" /></a>
+<a href="https://www.youtube.com/watch?v=JmvOuyeqoLw&amp;list=PLJQumuuts49qC9sbhf4Deky0-XZuY09A_"><img src="/static/button/vocaloid.gif" alt="ico-vocaloid" /></a>
+<a href="/EEEEEEEEEEEEEEEEEEEEEEE"><img src="/static/button/mikuproved.gif" alt="ico-miku3" /></a>
+<a href="https://www.youtube.com/watch?v=3rsBLRFONEs"><img src="/static/button/hatsunemiku1.gif" alt="ico-miku1" /></a>
+<a href="https://www.youtube.com/watch?v=NJAghsisnok"><img src="/static/button/miku.gif" alt="ico-miku2" /></a>
+<a href="https://www.youtube.com/watch?v=KGD-mFTY6mw"><img src="/static/button/konata.gif" alt="ico-konata" /></a>
+<a href="/eeeeeeeeeeeeeeeeee"><img src="/static/button/88x31pinkmarble.gif" alt="ico-filler1" /></a>
+<a href="https://validator.w3.org/check/referer"><img src="/static/button/valid-html5-blue.svg" alt="ico-html" /></a>
+<a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="/static/button/valid-css-blue.svg" alt="ico-css" /></a>
+<a href="https://creativecommons.org/licenses/by-sa/4.0"><img src="/static/button/cc.png" alt="ico-cc" /></a>
+<a href="https://www.gnu.org/licenses/gpl-3.0"><img src="/static/button/gpl.png" alt="ico-gpl" /></a></p>
+<p><a href="/static/button/badge.png" title="static version"><img src="/static/button/badge.png" alt="ico-badge" /></a>
+<a href="/static/button/badge.gif" title="animated version"><img src="/static/button/badge.gif" alt="ico-badge" /></a></p>
+<p><span class="aside">If you enjoyed my website and you’d like to link here, feel free to use my badge on your own site.</span></p>
+</div>
+<!-- extended reading on unix and adjacent topics -->
+<!-- [unix]: http://emulator.pdp-11.org.ru/misc/1978.07_-_Bell_System_Technical_Journal.pdf -->
+<div class="index">
+</div>
+<hr/>
+<div class="footer">
+	<span class="right" style="padding-left: 5px">
+		<a title="visitor counter" href="https://digits.net">
+			<img style="height: 1.3em;" alt="counter"
+				src="https://counter.digits.net/?counter=%7Bc670b40d-4ee8-9e24-9d82-2ee79a5b1f54%7D&amp;template=simple&amp;background=647975&amp;charset=25"/>
+			vistors
+		</a>
+	</span>
+	<p>written materials <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, source code <a href="https://www.gnu.org/licenses/gpl-3.0">GNU GPLv3+</a>
+	— &copy; 2015-2022 microsounds &lt;<a href="https://github.com/microsounds">https://github.com/microsounds</a>&gt;<br/>
+	Powered by <a href="https://github.com/microsounds/kagami">kagami v0.6 — static microblog processor</a></p>
+</div>
+</div> <!-- end of content -->
+</body>
+</html>
+
+    © 2022 GitHub, Inc.
+
+    Terms
+    Privacy
+    Security
+    Status
+    Docs
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
+

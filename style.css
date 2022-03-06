@@ -2,15 +2,26 @@ body {
     background-color: #2B2B2B;
     font-family: verdana;
     color: white;
-    text-shadow: 2px 1px #646464
   }
   
   h1, h2, h3, h4, h5 {
     text-align: center;
   }
 
-  p {
-    background-color: 
+  .paragraph {
     font-size: 20px;
+    border: 1px solid #ffffff;
+    background-color: #121212;
     text-align: center;
+  }
+
+  .menu {
+    font-size: 20px;
+    border: 1px solid #ffffff;
+    background-color: #121212;
+    text-align: center;    
+  }
+
+  a {
+    color: white;
   }
